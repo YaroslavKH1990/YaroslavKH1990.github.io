@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Playfeir-Dispaly */
+@font-face {
+    font-family: "Playfeir-Dispaly";
+    src: url(fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Ubuntu */
+@font-face {
+    font-family: "Ubuntu";
+    src: url(fonts/Ubuntu/Ubuntu-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}  
+
+body {
+    font-family: 'Playfeir-Dispaly';
+    font-size: 14px;
+    line-height: 1.72;
+    color: #626262;
+}
+        
+
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    padding: 74px 0;
+}
+
+.nav-list {
+    text-align: center;
+    text-transform: uppercase;
+    color: #626262;
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-item + .nav-item {
+    padding-left: 110px;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color: #03a9f4;
+}
+
+
+.cards {
+    letter-spacing: -.34em;
+    margin: 0 -30px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 30px 30px;
+    letter-spacing: 0;
+}
+
+.card-img {
+    margin-bottom: 30px;
+}
+
+.card-link  {
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    padding-top: 73.11%;
+}
+
+.card .category-link {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+}
+
+.card h2 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.card h2 a {
+    color: inherit;
+}
+
+button {
+    width: 164;
+    height: 61;
+    font-family: "Playfeir-Dispaly";
+    font-size: 20px;
+    background-color: #fff;
+}
+
+button  {
+    margin-top: 20px;
+    margin-left: 860px;
+    margin-bottom: 70px;
+    padding: 23px 34px;
+    color: #626262;
+}

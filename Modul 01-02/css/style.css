@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.72;
+    color: #626262;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 930;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-list {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 120px;
+}
