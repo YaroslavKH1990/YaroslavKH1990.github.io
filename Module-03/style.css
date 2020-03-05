@@ -126,17 +126,16 @@ ul, ol {
 }
 
 button {
-    width: 164;
-    height: 61;
     font-family: "Playfeir-Dispaly";
     font-size: 20px;
     background-color: #fff;
 }
 
 button  {
-    margin-top: 20px;
-    margin-left: 860px;
-    margin-bottom: 70px;
     padding: 23px 34px;
     color: #626262;
+}
+
+.controls   {
+    text-align: center;
 }
