@@ -110,6 +110,7 @@ h2  {
 .card-list  {
     overflow: hidden;
     margin: 0 -15px;
+    margin-bottom: 105px;
 }
 
 .card   {
@@ -126,16 +127,14 @@ img {
 
 .card-img   {
     background: #e9f0fd;
-    height: 280px;
     position: relative;
+    margin: 0 auto;
 }
 
 .card-img img {
     margin: 0 auto;
-    /* position: absolute; */
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
 }
 
 .card-footer    {
@@ -149,12 +148,10 @@ img {
 }
 
 .card-name  {
-    text-transform: uppercase;
     text-decoration: none;
-    /* position: absolute; */
+    position: absolute;
     padding-top: 10px;
     padding-left: 14px;
-    margin: 0 auto;
 }
 
 .card-price {
@@ -203,7 +200,6 @@ img {
 .post   {
     display: inline-block;
     width: 347px;
-    height: 600px;
 }
 
 .post img    {
@@ -241,6 +237,9 @@ img {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
 }
 
 h3  {
@@ -254,6 +253,10 @@ p   {
     font-weight: normal;
     line-height: 1.8;
     margin-top: 28px;
+}
+
+.btn-more:hover {
+    background-color: #515151;
 }
 
 
