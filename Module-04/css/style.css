@@ -24,7 +24,6 @@ h2  {
     overflow: hidden;
 }
 
-
 .site-navigation li {
     display: inline-block;
 }
@@ -35,7 +34,7 @@ h2  {
 
 .site-navigation a  {
     font-family: "OpenSans", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: #0f0101;
     font-size: 14px;
     text-transform: uppercase;
@@ -132,10 +131,11 @@ img {
 }
 
 .card-img img {
-    position: absolute;
+    margin: 0 auto;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 .card-footer    {
@@ -151,9 +151,10 @@ img {
 .card-name  {
     text-transform: uppercase;
     text-decoration: none;
-    position: absolute;
+    /* position: absolute; */
     padding-top: 10px;
     padding-left: 14px;
+    margin: 0 auto;
 }
 
 .card-price {
