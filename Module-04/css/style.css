@@ -8,7 +8,7 @@ html   {
     box-sizing: inherit;
 }
 
-h2  {
+h1  {
     margin: 0;
 }
 
@@ -19,10 +19,6 @@ h2  {
 }
 
 /* Header */
-
-.container-list  {
-    overflow: hidden;
-}
 
 .site-navigation li {
     display: inline-block;
@@ -145,6 +141,7 @@ img {
     font-size: 18px;
     font-weight: 900;
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
 }
 
 .card-name  {
