@@ -226,13 +226,14 @@ img   {
 }
 
 .overlay    {
-    height: 262px;
-    width: 236px;
+    height: 282px;
+    width: 255px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.52);
     top: 0;
-    margin: 10px;
-    z-index: -1;
+    /* margin: 10px; */
+    z-index: 1;
+    border: 10px solid rgba(255, 255, 255, 0.8);
 }
 
 .card-icons  {
