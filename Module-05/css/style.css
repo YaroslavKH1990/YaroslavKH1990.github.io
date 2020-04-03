@@ -232,8 +232,8 @@ img   {
     background-color: rgba(0, 0, 0, 0.52);
     top: 0;
     /* margin: 10px; */
-    z-index: 1;
     border: 10px solid rgba(255, 255, 255, 0.8);
+    opacity: 0;
 }
 
 .card-icons  {
@@ -322,7 +322,7 @@ img   {
 }
 
 .card:hover .overlay  {
-    z-index: 1;
+    opacity: 1;
 }
 
 .btn:hover  {

@@ -190,6 +190,10 @@ html    {
     justify-content: space-between;
 }
 
+.card   {
+    width: 382px;
+}
+
 .card-icons   {
     width: 380px;
     height: 470px;
