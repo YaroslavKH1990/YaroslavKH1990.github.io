@@ -1,0 +1,127 @@
+@media (min-width: 320px) and (max-width:767px) {
+    .header-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .logo   {
+        margin-bottom: 40px;
+    }
+
+    .user-box   {
+        margin-bottom: 118px;
+    }
+
+    .banner {
+        height: 540px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/mobile.png);
+    }
+
+    .header-text    {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .title-text {
+        width: 220px;
+        font-size: 18px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+    }
+
+    .partner    {
+        width: 280px;
+    }
+
+    .main-title {
+        padding-bottom: 20px;
+    }
+
+    .btn    {
+        width: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px)   {
+    .header-row {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 36px;
+        padding-bottom: 162px;
+    }
+
+    .banner {
+        background-image: url(img/tablet.png);
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+
+    .header-text    {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 1.2;
+        margin-bottom: 32px;
+    }
+
+    .title-text {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+
+    .partner    {
+        width: 226px;
+    }
+
+    .main-title {
+        padding-bottom: 32px;
+    }
+
+    .btn    {
+        width: 192px;
+    }
+}
+
+@media (min-width: 1440px)  {
+    .header-row {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 36px;
+        padding-bottom: 162px;
+    }
+
+    .banner {
+        background-image: url(img/desktop.png);
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+
+    .header-text    {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 1.2;
+        margin-bottom: 32px;
+    }
+
+    .title-text {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+
+    .partner    {
+        width: 226px;
+    }
+
+    .main-title {
+        padding-bottom: 32px;
+    }
+
+    .btn    {
+        width: 192px;
+    }
+}
+
