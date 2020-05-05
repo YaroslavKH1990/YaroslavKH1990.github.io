@@ -111,14 +111,13 @@ h1, h2, h3, p  {
 }
 
 .menu-nav__link:hover    {
-    transition: color 0.3s linear;
+    transition: all 0.2s linear;
     color: #fce38a;
 }
 
 .menu-nav__link:hover::after {
     display: block;
     position: absolute;
-    transition: color 0.3s linear;
     background-color: #fce38a;
     content: "";
     width: 100%;
@@ -126,11 +125,16 @@ h1, h2, h3, p  {
     margin-top: 6px;
 }
 
+.menu-nav__cart,
+.menu-nav__glass {
+    fill: #ffffff;
+}
 
-
-
-
-
+.menu-nav__cart:hover,
+.menu-nav__glass:hover  {
+    transition: all 0.2s linear;
+    fill: #fce38a;
+}
 
 .banner {
     background-image: url(img/banner-min.png);
@@ -164,14 +168,14 @@ h1, h2, h3, p  {
     z-index: 0;
 }
 
-.banner__container   {
+.banner__wrapper   {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.banner__container * {
+.banner__wrapper * {
     z-index: 1;
 }
 
@@ -208,7 +212,7 @@ h1, h2, h3, p  {
 
 /* ------------------------ */
 
-.services__container    {
+.services__wrapper    {
     width: 1200px;
     padding: 46px 15px 90px 15px;
     margin: 0 auto;
@@ -282,6 +286,72 @@ h1, h2, h3, p  {
     padding-bottom: 84px;
 }
 
+.team__card {
+    width: 380px;
+    height: 470px;
+    position: relative;
+}
+
+.team__card:hover .team__overlay    {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team__overlay {
+    background-color: #95e1d3;
+    
+}
+
+.team__overlay:hover .team__icons   {
+    visibility: visible;
+}
+
+.team__overlay:hover .team__foto   {
+    transform: translate3d(-10px, -10px, 0);
+    transition: all 0.2s linear;
+}
+
+.team__overlay:hover .team__img    {
+    opacity: 0.1;
+    transition: all 0.2s linear;
+}
+
+.team__foto {
+    height: 470px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.team__icons    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 206px;
+    right: 78px;
+    bottom: 208px;
+    left: 78px;
+    visibility: hidden;
+}
+
+.team__icon {
+    fill: #f38181;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fce38a;
+}
+
+.team__icon:hover   {
+    background-color: #f38181;
+    fill: #fff;
+}
+
+.team__icon:not(:last-child) {
+    border-right: 1px solid #f38181;
+}
+
 .team__after    {
     padding-top: 28px;
 }
@@ -340,32 +410,3 @@ h1, h2, h3, p  {
     padding: 0 30px;
     line-height: 1.1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
