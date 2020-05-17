@@ -1,0 +1,50 @@
+.footer-body    {
+    @extend %nav;
+    border-top: 1px solid $input-color;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10px;
+}
+
+.footer-about   {
+    font-family: $main-font;
+    font-weight: $font-normal;
+    font-size: 14px;
+    color: $title-color;
+}
+
+.footer-about__link {
+    color: $icon-color;
+    text-decoration: none;
+}
+
+.footer-subscribe   {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-subscribe__input    {
+    font-style: italic;
+    font-family: $secondary-font;
+    font-weight: $font-light;
+    color: $title-color;
+    font-size: 15px;
+    border: 1px solid $input-color;
+    padding: 14px;
+    height: 40px;
+    line-height: 1.1;
+}
+
+.footer-subscribe__btn  {
+    font-family: $main-font;
+    font-weight: $font-bold;
+    color: $main-color;
+    font-size: 14px;
+    background-color: $bg-color;
+    border: none;
+    height: 40px;
+    padding: 0 30px;
+    line-height: 1.1;
+}

@@ -1,0 +1,11 @@
+.head-nav   {
+    @extend %nav;
+}
+
+.head-nav__logo  {
+    font-family: $main-font;
+    font-size: 30px;
+    font-weight: $font-bold;
+    color: $main-color;
+    text-decoration: none;
+}

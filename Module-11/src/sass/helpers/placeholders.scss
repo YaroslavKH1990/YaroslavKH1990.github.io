@@ -1,0 +1,52 @@
+%subtitle   {
+    font-family: $subtitle-font;
+    font-weight: $font-normal;
+    font-size: 24px;
+    color: $title-color;
+    margin-bottom: 20px;
+}
+
+%title  {
+    font-family: $main-font;
+    font-weight: $font-bold;
+    font-size: 30px;
+    color: $title-color;
+    text-transform: uppercase;
+
+    &::after   {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: $icon-color;
+        margin: 40px auto 64px;
+    }
+}
+
+%monts  {
+    font-family: $main-font;
+    font-weight: $font-bold;
+    font-size: 14px;
+    color: $title-color;
+    text-transform: uppercase;
+}
+
+%about {
+    font-family: $secondary-font;
+    font-weight: $font-normal;
+    font-size: 15px;
+    color: $secondary-color;
+}
+
+%nav    {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+%text {
+    text-align: center;
+}

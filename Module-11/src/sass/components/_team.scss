@@ -1,0 +1,125 @@
+.team__text {
+    @extend %text;
+    padding-bottom: 90px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.team__subtitle {
+    @extend %subtitle;
+}
+
+.team__title    {
+    @extend %title;
+}
+
+.team__about    {
+    @extend %about;
+}
+
+.team__cards    {
+    @extend %nav;
+    padding-bottom: 84px;
+}
+
+.team__card {
+    width: 380px;
+    height: 470px;
+    position: relative;
+
+    &:hover .team__overlay    {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.team__overlay {
+    background-color: $bg-color;
+    
+    &:hover .team__icons   {
+        visibility: visible;
+    }
+
+    &:hover .team__foto   {
+        -webkit-transform: translate3d(-10px, -10px, 0);
+                transform: translate3d(-10px, -10px, 0);
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+    &:hover .team__img    {
+        opacity: 0.1;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+}
+
+.team__foto {
+    height: 470px;
+    background: -webkit-gradient(linear, left top, left bottom, from($icon-color), to($hover-color));
+    background: -o-linear-gradient(top, $icon-color, $hover-color);
+    background: linear-gradient(to bottom, $icon-color, $hover-color);
+}
+
+.team__icons    {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 206px;
+    right: 78px;
+    bottom: 208px;
+    left: 78px;
+    visibility: hidden;
+}
+
+.team__icon {
+    fill: $icon-color;
+    width: 58px;
+    height: 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: $hover-color;
+
+    &:hover   {
+        background-color: $icon-color;
+        fill: $main-color;
+    }
+
+    &:not(:last-child) {
+        border-right: 1px solid $icon-color;
+    }
+}
+
+.team__after    {
+    @extend %text;
+    padding-top: 28px;
+}
+
+.team__name {
+    @extend %monts;
+}
+
+.team__prof {
+    font-family: $secondary-font;
+    font-weight: $font-light;
+    font-size: 15px;
+    font-style: italic;
+    color: $secondary-color;
+    margin-top: 16px;
+}

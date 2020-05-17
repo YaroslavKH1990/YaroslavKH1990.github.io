@@ -1,0 +1,81 @@
+.services__wrapper    {
+    width: 1200px;
+    padding: 46px 15px 90px 15px;
+    margin: 0 auto;
+}
+
+.services__text {
+    @extend %text;
+}
+
+.secvices__subtitle {
+    @extend %subtitle;
+}
+
+.services__title    {
+    @extend %title;
+}
+
+.services__cards    {
+    @extend %nav;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.services__card {
+    position: relative;
+    width: 380px;
+
+    &:nth-child(-n+3)   {
+        margin-bottom: 90px;
+    }
+}
+
+.card-icon::before  {
+    content: "";
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 0;
+    left: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clock::before  {
+    background-image: url(../../images/sprite/clock.svg);
+}
+
+.graph::before  {
+    background-image: url(../../images/sprite/graph.svg);
+}
+
+.computer::before   {
+    background-image: url(../../images/sprite/computer.svg);
+}
+
+.book::before   {
+    background-image: url(../../images/sprite/book.svg);
+}
+
+.home::before   {
+    background-image: url(../../images/sprite/home.svg);
+}
+
+.image::before  {
+    background-image: url(../../images/sprite/image.svg);
+}
+
+.card-icon__text    {
+    padding-left: 82px;
+}
+
+.card-icon__title {
+    @extend %monts;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.card-icon__about   {
+    @extend %about;
+}
