@@ -43,27 +43,27 @@
 }
 
 .clock::before  {
-    background-image: url(/src/images/sprite/clock.svg);
+    background-image: url();
 }
 
 .graph::before  {
-    background-image: url(/src/images/sprite/graph.svg);
+    background-image: url(../../images/sprite/clock.svg);
 }
 
 .computer::before   {
-    background-image: url(/src/images/sprite/computer.svg);
+    background-image: url(../../images/sprite/graph.svg);
 }
 
 .book::before   {
-    background-image: url(/src/images/sprite/book.svg);
+    background-image: url(../../images/sprite/computer.svg);
 }
 
 .home::before   {
-    background-image: url(/src/images/sprite/image.svg);
+    background-image: url(../../images/sprite/book.svg);
 }
 
 .image::before  {
-    background-image: url(/src/images/sprite/image.svg);
+    background-image: url(../../images/sprite/image.svg);
 }
 
 .card-icon__text    {
